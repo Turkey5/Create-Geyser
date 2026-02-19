@@ -12,7 +12,7 @@ import java.nio.file.Path;
  * The main class of your extension - must implement extension, and be in the extension.yml file.
  * See {@link Extension} for available methods - for example to get the path to the configuration folder.
  */
-public class ExampleExtension implements Extension {
+public class ExtensionMain implements Extension {
 
     /*
      * Registering custom items/blocks, or adding resource packs (and basically all other events that are fired before Geyser initializes fully)
