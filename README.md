@@ -13,3 +13,5 @@
 - Current gen consoles
 - Mobile devices produced in the last 3 years
 - Computers with at least 8Gb ram and a modern CPU
+  ## Config
+- gameplay.enable-custom-content is set to true in geyser's config.yml file
