@@ -1,6 +1,6 @@
-id: $id
-name: $name
+id: creategeyser
+name: CreateGeyser
 main: org.geyser.extension.exampleid.ExampleExtension
-api: $api
-version: $version
-authors: [$author]
+api: 2.9.4
+version: 0.0.1
+authors: [Turkey]
