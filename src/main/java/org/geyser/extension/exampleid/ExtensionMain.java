@@ -23,6 +23,17 @@ public class ExtensionMain implements Extension {
         logger().info("Loading: " + event.resourcePacks().size() + " resource packs.");
     }
 
+    @Subscribe
+    public void onGeyserPreInitializeEvent(GeyserDefineCustomItemsEvent event) {
+        CustomItemData andesite_alloy = CustomItemData.builder()
+                .name("andesite_alloy")
+                .customItemOptions(CustomItemOptions.builder().customModelData(1).build())
+                .textureSize(16)
+                .creativeCategory(CreativeCategory.ITEMS.id())
+                .build();
+        event.register("create:andesite_alloy", andesite_alloy);
+
+    }
     /*
      * You can use the GeyserPostInitializeEvent to run anything after Geyser fully initialized and is ready to accept bedrock player connections.
      */
