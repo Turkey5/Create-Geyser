@@ -1,1 +1,11 @@
-temp
+{
+  "items": [
+    {
+      "java_id": "create:andesite_alloy",
+      "bedrock_id": "create_andesite_alloy",
+      "display_name": "Andesite Alloy",
+      "texture": "textures/items/andesite_alloy.png",
+      "model": "flat"
+    }
+  ]
+}
