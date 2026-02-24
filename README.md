@@ -4,7 +4,7 @@
 ## Mods
 - Fabric Api
 - Geyser
-- Hurricane
+- Hurricane*
 - Hydraulic
 - Create Fly
 ## Allocations
@@ -13,3 +13,5 @@
 - Current gen consoles
 - Mobile devices produced in the last 3 years
 - Computers with at least 8Gb ram and a modern CPU
+
+*not strictly required, but strongly reccomended for bedrock collision performance
