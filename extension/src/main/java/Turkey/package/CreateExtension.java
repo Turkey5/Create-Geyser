@@ -4,7 +4,7 @@ import org.geysermc.geyser.api.extension.Extension;
 import org.geysermc.geyser.api.event.lifecycle.GeyserPostInitializeEvent;
 import org.geysermc.geyser.api.event.subscribe.Subscribe;
 
-public final class CreateBedrockExtension implements Extension {
+public final class CreateExtension implements Extension {
     @Subscribe
     public void onPostInit(GeyserPostInitializeEvent event) {
         logger.info("Create: Geyser sucessfully initialized");
