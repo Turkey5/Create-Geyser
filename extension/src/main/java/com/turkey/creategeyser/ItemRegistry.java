@@ -4,5 +4,17 @@ import org.geysermc.geyser.api.GeyserApi;
 import java.io.InputStream;
 
 public class ItemRegistry {
-  //future stuff
+  private final CreateBedrockExtension extension;
+
+  public ItemRegistry(CreateBedrockExtension extension) { 
+    this.extension = extension;
+  }
+
+  public void load() {
+    
+  }
+
+  public void registerItems() {
+    
+  }
 }
