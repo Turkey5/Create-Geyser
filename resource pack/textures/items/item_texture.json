@@ -1,0 +1,8 @@
+{
+  "resource_pack_name": "Create: Geyser",
+  "texture_data": {
+    "create_andesite_alloy": {
+      "textures": "textures/items/andesite_alloy"
+    }
+  }
+}

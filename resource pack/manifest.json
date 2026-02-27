@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "The texture pack for the Create:Geyser extension",
+        "name": "Create:Geyser",
+        "uuid": "74e029cb-87ee-4004-ae93-5a1a59edf4c8",
+        "version": [1, 1, 1],
+        "min_engine_version": [ 1, 13, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Assets",
+            "type": "resources",
+            "uuid": "bf57f29d-2c11-4367-9e23-c885856cdbcc",
+            "version": [1, 1, 1]
+        }
+    ]
+}
