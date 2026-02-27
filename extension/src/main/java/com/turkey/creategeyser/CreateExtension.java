@@ -1,4 +1,4 @@
-package com.Turkey.CreateGeyser;
+package com.turkey.creategeyser;
 
 import org.geysermc.geyser.api.extension.Extension;
 import org.geysermc.geyser.api.event.lifecycle.GeyserPostInitializeEvent;
